@@ -1,0 +1,587 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-02",
+  "sources": [
+    {
+      "id": "awesome-cursorrules",
+      "repo": "PatrickJS/awesome-cursorrules",
+      "path": "rules",
+      "type": "curated",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules"
+    },
+    {
+      "id": "cursor-directory",
+      "repo": "pontusab/cursor.directory",
+      "path": "src/data/rules",
+      "type": "community",
+      "url": "https://github.com/pontusab/cursor.directory"
+    },
+    {
+      "id": "awesome-cursor-rules",
+      "repo": "sanjeed5/awesome-cursor-rules",
+      "path": "rules",
+      "type": "community",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules"
+    }
+  ],
+  "rules": [
+    {
+      "name": "react-expert",
+      "description": "Expert React development rules with hooks, components, and best practices",
+      "tags": ["frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-expert/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/react-expert"
+    },
+    {
+      "name": "nextjs",
+      "description": "Next.js App Router development with React Server Components and best practices",
+      "tags": ["frontend", "javascript", "fullstack"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/nextjs"
+    },
+    {
+      "name": "nextjs-tailwind",
+      "description": "Next.js with Tailwind CSS development rules and conventions",
+      "tags": ["frontend", "javascript", "css"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-tailwind/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/nextjs-tailwind"
+    },
+    {
+      "name": "nextjs-supabase",
+      "description": "Next.js with Supabase backend development rules",
+      "tags": ["frontend", "javascript", "fullstack", "database"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-supabase/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/nextjs-supabase"
+    },
+    {
+      "name": "vue-nuxt",
+      "description": "Vue.js and Nuxt development rules with Composition API",
+      "tags": ["frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vue-nuxt/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/vue-nuxt"
+    },
+    {
+      "name": "angular",
+      "description": "Angular development rules with TypeScript and RxJS best practices",
+      "tags": ["frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/angular/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/angular"
+    },
+    {
+      "name": "svelte",
+      "description": "Svelte and SvelteKit development rules and conventions",
+      "tags": ["frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/svelte/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/svelte"
+    },
+    {
+      "name": "sveltekit",
+      "description": "SvelteKit full-stack development rules with TypeScript",
+      "tags": ["frontend", "javascript", "fullstack"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/sveltekit/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/sveltekit"
+    },
+    {
+      "name": "typescript",
+      "description": "TypeScript development rules with strict typing and best practices",
+      "tags": ["javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/typescript"
+    },
+    {
+      "name": "typescript-node",
+      "description": "Node.js with TypeScript backend development rules",
+      "tags": ["backend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-node/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/typescript-node"
+    },
+    {
+      "name": "python",
+      "description": "Python development rules with type hints and modern best practices",
+      "tags": ["python"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/python"
+    },
+    {
+      "name": "django",
+      "description": "Django web development rules with Python best practices",
+      "tags": ["python", "backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/django/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/django"
+    },
+    {
+      "name": "fastapi",
+      "description": "FastAPI development rules with async Python and Pydantic",
+      "tags": ["python", "backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/fastapi/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/fastapi"
+    },
+    {
+      "name": "flask",
+      "description": "Flask web development rules and project structure conventions",
+      "tags": ["python", "backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/flask/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/flask"
+    },
+    {
+      "name": "golang",
+      "description": "Go development rules with idiomatic patterns and error handling",
+      "tags": ["go", "backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/golang/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/golang"
+    },
+    {
+      "name": "rust",
+      "description": "Rust development rules with ownership, lifetimes, and safety patterns",
+      "tags": ["rust"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/rust/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/rust"
+    },
+    {
+      "name": "swift-swiftui",
+      "description": "Swift and SwiftUI iOS/macOS development rules",
+      "tags": ["mobile"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/swift-swiftui/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/swift-swiftui"
+    },
+    {
+      "name": "flutter-dart",
+      "description": "Flutter and Dart mobile development rules with widget patterns",
+      "tags": ["mobile"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/flutter-dart/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/flutter-dart"
+    },
+    {
+      "name": "tailwindcss",
+      "description": "Tailwind CSS utility-first styling rules and conventions",
+      "tags": ["frontend", "css"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tailwindcss/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/tailwindcss"
+    },
+    {
+      "name": "postgresql",
+      "description": "PostgreSQL database design and query optimization rules",
+      "tags": ["database"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/postgresql/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/postgresql"
+    },
+    {
+      "name": "docker",
+      "description": "Docker containerization rules and Dockerfile best practices",
+      "tags": ["devops"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/docker/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/docker"
+    },
+    {
+      "name": "terraform",
+      "description": "Terraform infrastructure-as-code rules and HCL conventions",
+      "tags": ["devops", "cloud"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/terraform/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/terraform"
+    },
+    {
+      "name": "react-native",
+      "description": "React Native mobile development rules with Expo and navigation",
+      "tags": ["mobile", "frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-native/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/react-native"
+    },
+    {
+      "name": "express-nodejs",
+      "description": "Express.js and Node.js backend API development rules",
+      "tags": ["backend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/express-nodejs/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/express-nodejs"
+    },
+    {
+      "name": "nestjs",
+      "description": "NestJS framework development rules with decorators and modules",
+      "tags": ["backend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nestjs/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/nestjs"
+    },
+    {
+      "name": "laravel-php",
+      "description": "Laravel PHP framework development rules and conventions",
+      "tags": ["backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/laravel-php/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/laravel-php"
+    },
+    {
+      "name": "ruby-rails",
+      "description": "Ruby on Rails development rules with MVC patterns",
+      "tags": ["backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/ruby-rails/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/ruby-rails"
+    },
+    {
+      "name": "t3-stack",
+      "description": "T3 Stack (Next.js, tRPC, Prisma, Tailwind) development rules",
+      "tags": ["fullstack", "frontend", "javascript", "database"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/t3-stack/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/t3-stack"
+    },
+    {
+      "name": "astro",
+      "description": "Astro static site development rules and island architecture",
+      "tags": ["frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/astro/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/astro"
+    },
+    {
+      "name": "remix",
+      "description": "Remix full-stack web framework development rules",
+      "tags": ["fullstack", "frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/remix/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/remix"
+    },
+    {
+      "name": "react-typescript",
+      "description": "React with TypeScript strict development rules and patterns",
+      "tags": ["frontend", "javascript"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/react-typescript.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "nextjs-app-router",
+      "description": "Next.js 14+ App Router with RSC and server actions rules",
+      "tags": ["frontend", "javascript", "fullstack"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/nextjs-app-router.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "python-fastapi-expert",
+      "description": "Advanced FastAPI development with async patterns and dependency injection",
+      "tags": ["python", "backend"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/python-fastapi.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "python-django-expert",
+      "description": "Django development with DRF, ORM patterns, and security best practices",
+      "tags": ["python", "backend"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/python-django.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "go-expert",
+      "description": "Go development with concurrency patterns, interfaces, and testing",
+      "tags": ["go", "backend"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/go.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "rust-expert",
+      "description": "Rust development with ownership, error handling, and async patterns",
+      "tags": ["rust"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/rust.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "vue-composition-api",
+      "description": "Vue 3 Composition API development rules with TypeScript",
+      "tags": ["frontend", "javascript"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/vue.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "angular-expert",
+      "description": "Angular development with signals, standalone components, and RxJS",
+      "tags": ["frontend", "javascript"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/angular.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "svelte-expert",
+      "description": "Svelte 5 development with runes and SvelteKit patterns",
+      "tags": ["frontend", "javascript"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/svelte.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "tailwind-expert",
+      "description": "Advanced Tailwind CSS rules with custom design system patterns",
+      "tags": ["frontend", "css"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/tailwind.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "docker-kubernetes",
+      "description": "Docker and Kubernetes container orchestration rules",
+      "tags": ["devops", "cloud"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/docker-kubernetes.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "aws-serverless",
+      "description": "AWS serverless development with Lambda, API Gateway, and DynamoDB",
+      "tags": ["cloud", "backend"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/aws-serverless.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "prisma-database",
+      "description": "Prisma ORM database development rules with migrations and relations",
+      "tags": ["database", "javascript"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/prisma.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "supabase",
+      "description": "Supabase backend development with auth, storage, and realtime",
+      "tags": ["database", "backend", "cloud"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/supabase.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "graphql",
+      "description": "GraphQL API development rules with schema design and resolvers",
+      "tags": ["backend", "javascript"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/graphql.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "jest-testing",
+      "description": "Jest testing rules with mocking, snapshots, and coverage best practices",
+      "tags": ["testing", "javascript"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/jest-testing/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/jest-testing"
+    },
+    {
+      "name": "playwright-testing",
+      "description": "Playwright end-to-end testing rules with page objects and assertions",
+      "tags": ["testing", "javascript"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/playwright-testing/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/playwright-testing"
+    },
+    {
+      "name": "spring-boot-java",
+      "description": "Spring Boot Java development rules with dependency injection and REST",
+      "tags": ["java", "backend"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/spring-boot-java/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/spring-boot-java"
+    },
+    {
+      "name": "kotlin-android",
+      "description": "Kotlin Android development rules with Jetpack Compose",
+      "tags": ["mobile", "java"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/kotlin-android/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/kotlin-android"
+    },
+    {
+      "name": "clean-code",
+      "description": "Clean code principles and SOLID patterns for any language",
+      "tags": ["architecture"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/clean-code/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/clean-code"
+    },
+    {
+      "name": "openai-api",
+      "description": "OpenAI API integration rules with chat completions and embeddings",
+      "tags": ["ai", "backend"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/openai-api/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/openai-api"
+    },
+    {
+      "name": "langchain-python",
+      "description": "LangChain Python development rules for LLM application building",
+      "tags": ["ai", "python"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/langchain-python/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/langchain-python"
+    },
+    {
+      "name": "mongodb",
+      "description": "MongoDB NoSQL database development rules with aggregation pipelines",
+      "tags": ["database"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/mongodb/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/mongodb"
+    },
+    {
+      "name": "redis",
+      "description": "Redis caching and data structure rules with pub/sub patterns",
+      "tags": ["database", "backend"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/redis/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/redis"
+    },
+    {
+      "name": "terraform-aws",
+      "description": "Terraform with AWS provider rules for infrastructure management",
+      "tags": ["devops", "cloud"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/terraform-aws/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/terraform-aws"
+    },
+    {
+      "name": "github-actions",
+      "description": "GitHub Actions CI/CD workflow development rules",
+      "tags": ["devops"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/github-actions/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/github-actions"
+    },
+    {
+      "name": "security-best-practices",
+      "description": "Application security rules covering OWASP top 10 and secure coding",
+      "tags": ["security"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/security-best-practices/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/security-best-practices"
+    },
+    {
+      "name": "vercel-deployment",
+      "description": "Vercel deployment and serverless functions development rules",
+      "tags": ["cloud", "devops"],
+      "source": "cursor-directory",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/pontusab/cursor.directory/main/src/data/rules/vercel.md",
+      "repo_url": "https://github.com/pontusab/cursor.directory/tree/main/src/data/rules"
+    },
+    {
+      "name": "pytorch-ml",
+      "description": "PyTorch machine learning development rules with training and inference",
+      "tags": ["ai", "python"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/pytorch-ml/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/pytorch-ml"
+    },
+    {
+      "name": "solidity-web3",
+      "description": "Solidity smart contract and Web3 development rules",
+      "tags": ["backend"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidity-web3/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/solidity-web3"
+    },
+    {
+      "name": "electron",
+      "description": "Electron desktop application development rules",
+      "tags": ["frontend", "javascript"],
+      "source": "awesome-cursorrules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/electron/.cursorrules",
+      "repo_url": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/electron"
+    },
+    {
+      "name": "csharp-dotnet",
+      "description": "C# and .NET development rules with ASP.NET Core patterns",
+      "tags": ["backend"],
+      "source": "awesome-cursor-rules",
+      "compatible": ["cursor", "claude-code", "copilot", "codex"],
+      "raw_url": "https://raw.githubusercontent.com/sanjeed5/awesome-cursor-rules/main/rules/csharp-dotnet/.cursorrules",
+      "repo_url": "https://github.com/sanjeed5/awesome-cursor-rules/tree/main/rules/csharp-dotnet"
+    }
+  ]
+}
